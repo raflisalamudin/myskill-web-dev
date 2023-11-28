@@ -1,0 +1,3 @@
+https://codepen.io/MySkill/pen/GRdWbLO
+
+linear, radial, conic, repeat GRADIENT

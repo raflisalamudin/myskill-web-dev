@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch</title>
+  </head>
+  <body>
+    <script>
+      // jalankan di console
+      const resource = "https://jsonplaceholder.typicode.com/todos";
+
+      const optionGet = { method: "GET" };
+      fetch(resource, optionGet)
+        .then((data) => data.json())
+        .then((parsedData) => console.log(parsedData));
+
+      const optionPost = {
+        method: "POST",
+        body: JSON.stringify({
+          title: "belajar javascript",
+          completed: false,
+          userId: 10,
+        }),
+      };
+
+      fetch(resource, optionPost)
+        .then((data) => data.json())
+        .then((data) => console.log(data))
+        .catch((error) => console.log("ada error", error));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+https://codepen.io/MySkill/pen/rNvmNYb
+
+repeat, position, size, attachment, origin, clip, multiple

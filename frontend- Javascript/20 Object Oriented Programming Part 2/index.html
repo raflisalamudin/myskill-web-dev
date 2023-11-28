@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OOP</title>
+  </head>
+  <body>
+    <script>
+      // encapsulation
+      class Ongkir {
+        // pakai # atau private indentifier agar tidak dapat di ubah di luar class
+        #pajak;
+        constructor(weight) {
+          this.#pajak = 1000;
+          this.biaya = this.calculatePrice(weight);
+        }
+        calculatePrice(weight) {
+          return weight * 10000;
+        }
+        get totalPrice() {
+          return this.#pajak + this.biaya;
+        }
+      }
+
+      const ongkir = new Ongkir(2);
+      console.log(ongkir.totalPrice);
+      ongkir.pajak = 5000;
+      console.log(ongkir.totalPrice);
+
+      //   inheritance
+      class People {
+        constructor(name, age) {
+          this.name = name;
+          this.age = age;
+          this.job = "jobless";
+        }
+        get getJob() {
+          return this.job;
+        }
+      }
+      //   child class
+      class PersonWithJob extends People {
+        constructor(name, age, job) {
+          // super dibawah ini bisa di anggap sebagai new People(name, age)
+          super(name, age);
+          this.job = job;
+        }
+      }
+
+      const you = new People("you", 21);
+      const me = new PersonWithJob("me", 23, "Front End Developer");
+      console.log(you.getJob);
+      console.log(me.getJob);
+
+      //   polymorphism
+      class Indonesia {
+        constructor(name) {
+          this.name = name;
+        }
+        greeting() {
+          return `Halo nama saya ${this.name}`;
+        }
+      }
+      class Javanese extends Indonesia {
+        constructor(name) {
+          super(name);
+        }
+        greeting() {
+          return `Sugeng enjing, nami kula ${this.name}`;
+        }
+      }
+      const indonesian = new Indonesia("Rafli");
+      const javanese = new Javanese("Ayu");
+      console.log(indonesian.greeting());
+      console.log(javanese.greeting());
+    </script>
+  </body>
+</html>

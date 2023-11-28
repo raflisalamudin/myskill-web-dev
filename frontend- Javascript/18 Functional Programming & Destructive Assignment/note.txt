@@ -1,0 +1,8 @@
+high order function
+map, filter , reduce, find, dll
+
+currying
+
+https://medium.com/@myskill.id/functional-programming-destructive-assignment-e1b239f3fa33
+
+https://storage.googleapis.com/myskill-v2-certificates/course-aP94gFdIyAexP0OzJ2Qa/g01IRi5CnLZrK4LvIcmLdGlC0Q53-bYYZgL17crubRGteJybn.pdf

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;600&display=swap" rel="stylesheet" />
+    <title>CSS Project My Skill</title>
+    <style>
+      body {
+        background-color: white;
+        padding: 0;
+        margin: 0;
+        font-family: "Roboto Slab", serif;
+      }
+      header {
+        background: rgb(131, 58, 180);
+        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+        padding: 20px;
+      }
+      .header-container {
+        display: flex;
+      }
+      .img-profile {
+        width: 100px;
+        height: 100px;
+        transition: all;
+        transition-duration: 1s;
+      }
+      .img-profile:hover {
+        margin-left: 10px;
+      }
+      .holder-img {
+        flex: 1;
+      }
+      .holder-detail {
+        flex: 2;
+      }
+      .name-profile {
+        font-size: 24px;
+        color: white;
+        font-weight: 600;
+      }
+      .tittle-profile {
+        color: white;
+      }
+      .button {
+        border: none;
+        padding: 5px 10px;
+        margin: 10px 10px 0 0;
+        font-family: "Roboto Slab", serif;
+        border-radius: 40px;
+        font-size: 11px;
+        font-weight: 600;
+        transition: all;
+        transition-duration: 1s;
+      }
+      .download {
+        background-color: #e6e9ed;
+        color: rgb(43, 43, 43);
+        cursor: pointer;
+      }
+      .hire {
+        background-color: #37bc9b;
+        color: white;
+        cursor: pointer;
+      }
+      .button:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="holder-img">
+          <img src="rafli.png" alt="foto rafli" class="img-profile" />
+        </div>
+        <div class="holder-detail">
+          <div class="name-profile">Rafli Salamudin</div>
+          <div class="tittle-profile">Graphic Designer & Web Developer</div>
+          <div>
+            <button class="button download">Download CV</button>
+            <button class="button hire">Hire Me</button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

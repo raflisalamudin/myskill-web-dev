@@ -1,0 +1,6 @@
+fetch
+async & await
+
+https://codepen.io/MySkill/pen/bGvjyRM?editors=1111
+
+https://storage.googleapis.com/myskill-v2-certificates/course-RuFfshTgeBFlYcMJq7ry/g01IRi5CnLZrK4LvIcmLdGlC0Q53-iUjMRbeXzRiUCuSXtFxP.pdf

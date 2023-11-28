@@ -1,0 +1,10 @@
+static method
+promise.all()
+promise.any()
+promise.race()
+
+https://medium.com/@myskill.id/javascript-promise-9278432e5ab2
+
+https://codepen.io/MySkill/pen/jOzpoOx
+
+https://storage.googleapis.com/myskill-v2-certificates/course-AER9lu7OgeL7p5OgOEvc/g01IRi5CnLZrK4LvIcmLdGlC0Q53-zGYr9i8VXktsCLz1iAWs.pdf

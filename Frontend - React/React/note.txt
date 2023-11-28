@@ -1,0 +1,162 @@
+// Looping JSX
+// const phoneData = [
+//   {
+//     name: "iPhone X",
+//     price: 10000000,
+//     discount: 50,
+//   },
+//   {
+//     name: "Oppo Find X",
+//     price: 14000000,
+//     discount: 30,
+//   },
+//   {
+//     name: "POCO F4",
+//     price: 5700000,
+//     discount: 5,
+//   },
+// ];
+
+// JSX data
+// function Product({ price, name, discount = 0 }) {
+//   return (
+//     <div>
+//       <h2>{name}</h2>
+//       <p>
+//         <s>Rp {price}</s> ({discount}%)
+//       </p>
+//       <p>
+//         <b>Rp {parseInt(price) - (parseInt(price) * parseInt(discount)) / 100}</b>
+//       </p>
+//       <hr />
+//     </div>
+//   );
+// }
+
+// React event
+// function Football() {
+//   const shoot = (a, b) => {
+//     alert(b.type);
+//   };
+//   return <button onClick={(event) => shoot("Goal", event)}>Take the shoot!</button>;
+// }
+
+// Conditional Rendering
+// function MissedGoal() {
+//   return <h1>MISSED!!</h1>;
+// }
+// function MadeGoal() {
+//   return <h1>GOAL!!</h1>;
+// }
+// function Goal(props) {
+//   const isGoal = props.isGoal;
+// if (isGoal) {
+//   return <MadeGoal />;
+// }
+// return <MissedGoal />;
+
+// ternary
+// return <>{isGoal ? <MadeGoal /> : <MissedGoal />}</>;
+// }
+
+// logical && operator
+// function Garage(props) {
+//   const cars = props.cars;
+//   return (
+//     <>
+//       <h1>Garage</h1>
+//       {cars.length > 0 && <h2>You have {cars.length} cars in your garage.</h2>}
+//     </>
+//   );
+// }
+// const cars = ["Ford", "BMW", "Audi"];
+
+// Ternary Operation ada di goal
+
+// React Lists
+// function Car(props) {
+//   return <li>I am a {props.brand}</li>;
+// }
+// function Garage() {
+//   const cars = ["BMW", "Audi", "Ford"];
+//   return (
+//     <>
+//       <h1>Who lives in my garage?</h1>
+//       <ul>
+//         {cars.map((car) => (
+//           <Car brand={car} />
+//         ))}
+//       </ul>
+//     </>
+//   );
+// }
+
+// key dalam react list
+// function Garage() {
+//   const cars = [
+//     { id: 1, brand: "Ford" },
+//     { id: 2, brand: "BMW" },
+//     { id: 3, brand: "Audi" },
+//   ];
+//   return (
+//     <>
+//       <h1>Who lives in my garage?</h1>
+//       <ul>
+//         {cars.map((car) => (
+//           <Car key={car.id} brand={car.brand} />
+//         ))}
+//       </ul>
+//     </>
+//   );
+// }
+
+// styling css
+// const Header = () => {
+//   return (
+//     <>
+//       <h1 style={{ color: "red", backgroundColor: "blue" }}>Hello Style!</h1>
+//       <p>Add a little style</p>
+//     </>
+//   );
+// };
+
+// const Headerr = () => {
+//   const myStyle = {
+//     color: "white",
+//     backgroundColor: "DodgerBlue",
+//     padding: "10px",
+//     fontFamily: "Sans-Serif",
+//   };
+//   return (
+//     <>
+//       <h1 style={myStyle}>Hello Style!</h1>
+//       <p>Add a little style</p>
+//     </>
+//   );
+// };
+
+====================================================================================================================
+
+// <div className="App">
+      {/* jsx data */}
+      {/* <Product name="iPhone X" price="10000000" discount="50" />
+      <Product name="Oppo Find X" price="14000000" discount="30" />
+      <Product name="Redmi Note X" price="12000000" discount="42" /> */}
+      {/* looping jsx */}
+      {/* {phoneData.map((phone, id) => (
+        <Product key={id} name={phone.name} price={phone.price} discount={phone.discount}></Product>
+      ))} */}
+      {/* React Event */}
+      {/* <Football /> */}
+      {/* Conditional Rendering */}
+      {/* <Goal isGoal={false} /> */}
+      {/* logical && operator */}
+      {/* <Garage cars={cars} /> */}
+      {/* React Lists */}
+      {/* <Garage /> */}
+      {/* key dalam react list */}
+      {/* <Garage /> */}
+      {/* styling css */}
+      {/* <Header /> */}
+      {/* <Headerr /> */}
+    {/* </div> */}
