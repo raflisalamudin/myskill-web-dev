@@ -1,0 +1,39 @@
+buat repo
+tambah fileTask.txt
+buat remote repo
+push ke github
+buat file baru dari github
+git pull ke local
+
+buat branch new_branch
+pindah ke new_branch
+buat file berisi nama, umur, pekerjaan dalam file myProfile.txt
+push ke git branch new_branch
+
+tambah line baru pada myProfile.txt
+push ke git branch new_branch
+merge new_branch ke master branch
+
+switch ke master
+buat file trash.txt
+lakukan add dan commit
+tambah line baru pada trash.txt jadi 10 line
+commit lagi (kedua)
+lakukan detached head pada commit 1
+
+kembali ke master
+git reset file trash.txt (commit 2) 
+tambahkan jadi 15 baris (commit 3) tips: git reset / git --hard
+git revert
+
+push ke githhub
+switch new_branch
+lakukan fetch dan pull
+hapus fileTask.txt
+git add dan commit
+push ke new_branch
+lakukan pull request menggunakan hithub merge new_branch ke master branch
+
+
+
+https://storage.googleapis.com/myskill-v2-certificates/course-HxSo3a7ePIXAvitLVyHC/g01IRi5CnLZrK4LvIcmLdGlC0Q53-BgFY0eX8t03HKbacrYSw.pdf

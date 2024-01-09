@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- {{ message }}
+      <p>{{ isItTrue }}</p>
+      <p>{{ myArray[1] }}</p>
+      <p>nama saya {{ myObj.name }}, pekerjaan saya {{ myObj.job }}</p>
+      <p>{{ greeting }}</p>
+      <p>{{ myFunc() }}</p> -->
+
+      <!-- <p>{{ message }}</p> -->
+      <!-- <p>{{ myFunc() }}</p> -->
+
+      <p>
+        <img :src="img" v-bind:alt="alt" />
+      </p>
+      <p v-text="message"></p>
+      <p v-html="myHtml"></p>
+      <a :href="myLink">go to google</a>
+    </div>
+  </body>
+
+  <script>
+    // const { createApp } = Vue;
+
+    // createApp({
+    //   data() {
+    //     return {
+    //       message: "Hello World",
+    //       isItTrue: true,
+    //       myArray: ["ahmad", "rafli", "salamudin"],
+    //       myObj: {
+    //         name: "gopli",
+    //         job: "web developer",
+    //       },
+    //       greeting: "Today is" + new Date().toLocaleString(),
+    //       myFunc: () => {
+    //         return "My name is Rafli";
+    //       },
+    //     };
+    //   },
+    // }).mount("#app");
+
+    const App = {
+      data() {
+        return {
+          img: "https://picsum.photos/200/300",
+          alt: "image",
+          myHtml: "<b>This style with HTML</b>",
+          myLink: "https://google.com",
+          message: "Hello World",
+          isItTrue: false,
+          myArray: ["my", "skill", "is", "awesome"],
+        };
+      },
+      methods: {
+        myFunc() {
+          const randomArray = this.myArray[Math.floor(Math.random() * this.myArray.length)];
+
+          if (this.isItTrue) {
+            return this.myArray[3];
+          }
+          return randomArray;
+        },
+      },
+    };
+    Vue.createApp(App).mount("#app");
+  </script>
+</html>

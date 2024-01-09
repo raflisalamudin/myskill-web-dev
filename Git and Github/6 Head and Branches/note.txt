@@ -1,0 +1,9 @@
+git branch
+git switch
+git log
+
+
+https://docs.google.com/presentation/d/1wvJIo663n4fi2dGbYUKRhCREAlG5DnwbOXavkcIcS3M/edit
+
+https://storage.googleapis.com/myskill-v2-certificates/course-8st6Z5F8iMntSJOiCArt/g01IRi5CnLZrK4LvIcmLdGlC0Q53-RlrsUjMhSaFnPKrQlFLr.pdf
+

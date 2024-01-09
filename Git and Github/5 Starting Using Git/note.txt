@@ -1,0 +1,14 @@
+git remote and push
+git fetch and pull
+
+token PAT: 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
+
+git fetch = ngambil dan cek dari github ke git local
+git checkout origin/master = taro ke worksheet sementara
+git switch master = balikin lagi ke master github dan hapus di git kita
+git pull = langsung masuk ke git local
+
+
+https://docs.google.com/presentation/d/1I_QhH7tjTZQb4BeP8IyhgFzyJustnECSfZgpHYwI15U/edit
+
+https://storage.googleapis.com/myskill-v2-certificates/course-x7319vQEMdavJJR7XfUH/g01IRi5CnLZrK4LvIcmLdGlC0Q53-d58wFDoj91K4kE3RyOTP.pdf

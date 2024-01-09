@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p v-for="(child, index) in childs">{{ child }} : {{ index }}</p>
+
+      <p v-for="car in cars">{{ car.brand }} : {{ car.color }}</p>
+
+      <p v-for="(value, key, index) in person">{{ key }}: {{ value }}</p>
+    </div>
+  </body>
+  <script>
+    const App = {
+      data() {
+        return {
+          childs: ["Ahmad", "Rafli", "Salamudin"],
+          cars: [
+            {
+              brand: "honda",
+              color: "white",
+            },
+            {
+              brand: "toyota",
+              color: "black",
+            },
+            {
+              brand: "mazda",
+              color: "red",
+            },
+          ],
+          person: {
+            nama: "Rafli",
+            job: "developer",
+            age: 23,
+          },
+        };
+      },
+      methods: {},
+    };
+    Vue.createApp(App).mount("#app");
+  </script>
+</html>

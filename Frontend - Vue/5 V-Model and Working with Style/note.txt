@@ -1,0 +1,8 @@
+V-model
+<input v-model="firstName" />
+https://vuejs.org/api/built-in-directives.html#v-model
+
+working with style
+v-bind:class="{}"
+
+https://storage.googleapis.com/myskill-v2-certificates/course-qh6FhiArBnZVfgUfDuRW/g01IRi5CnLZrK4LvIcmLdGlC0Q53-a2KzSQKtvWgoyvwKt6nF.pdf

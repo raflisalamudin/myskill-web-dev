@@ -1,0 +1,7 @@
+Materi:
+conditional rendering
+looping
+disable update
+working with event
+
+https://storage.googleapis.com/myskill-v2-certificates/course-l9jrv7VNfOKQP5biDy9C/g01IRi5CnLZrK4LvIcmLdGlC0Q53-0s7HqbTDtSO5YSgLfGL3.pdf

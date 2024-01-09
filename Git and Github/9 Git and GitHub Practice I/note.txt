@@ -1,0 +1,10 @@
+git stash
+push and pull
+common workflow
+github repository tour
+pull request
+forking at github (upstream)
+
+https://docs.google.com/presentation/d/1Ox6sSSNkwIdrQ_etispGn4XlfskWpOeKlcuLxisnJbI/edit
+
+https://storage.googleapis.com/myskill-v2-certificates/course-6CFheLeFUTYQtoCyR9Vk/g01IRi5CnLZrK4LvIcmLdGlC0Q53-pbDRY8cgj6xl9AAXjR0l.pdf

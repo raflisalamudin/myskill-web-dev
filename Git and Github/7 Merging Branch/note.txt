@@ -1,0 +1,8 @@
+git branch
+git merge = di main, dari lain branch ke main
+git diff
+
+
+https://docs.google.com/presentation/d/19CgyOM6mBq6KzEfl89oSGOdZfr9km9xtbkprULtvwOk/edit#slide=id.g26127cb71ec_2_46
+
+https://storage.googleapis.com/myskill-v2-certificates/course-HzGfqTReaZVsLhWKBwUS/g01IRi5CnLZrK4LvIcmLdGlC0Q53-qPfzxWz8TWiNM6LVupmI.pdf

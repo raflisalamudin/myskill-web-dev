@@ -8,73 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;600&display=swap" rel="stylesheet" />
     <title>CSS Project My Skill</title>
-    <style>
-      body {
-        background-color: white;
-        padding: 0;
-        margin: 0;
-        font-family: "Roboto Slab", serif;
-      }
-      header {
-        background: rgb(131, 58, 180);
-        background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-        padding: 20px;
-      }
-      .header-container {
-        display: flex;
-      }
-      .img-profile {
-        width: 100px;
-        height: 100px;
-        transition: all;
-        transition-duration: 1s;
-      }
-      .img-profile:hover {
-        margin-left: 10px;
-      }
-      .holder-img {
-        flex: 1;
-      }
-      .holder-detail {
-        flex: 2;
-      }
-      .name-profile {
-        font-size: 24px;
-        color: white;
-        font-weight: 600;
-      }
-      .tittle-profile {
-        color: white;
-      }
-      .button {
-        border: none;
-        padding: 5px 10px;
-        margin: 10px 10px 0 0;
-        font-family: "Roboto Slab", serif;
-        border-radius: 40px;
-        font-size: 11px;
-        font-weight: 600;
-        transition: all;
-        transition-duration: 1s;
-      }
-      .download {
-        background-color: #e6e9ed;
-        color: rgb(43, 43, 43);
-        cursor: pointer;
-      }
-      .hire {
-        background-color: #37bc9b;
-        color: white;
-        cursor: pointer;
-      }
-      .button:hover {
-        transform: scale(1.1);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="header-container">
+      <div class="container header-container">
         <div class="holder-img">
           <img src="rafli.png" alt="foto rafli" class="img-profile" />
         </div>
@@ -88,5 +26,85 @@
         </div>
       </div>
     </header>
+
+    <!-- content -->
+    <div class="container contentHolder">
+      <div>
+        <h1>About me</h1>
+        <div class="subContent">Hello! I'm Rafli Salamudin. I am passionate about UI design and Web Developer. I am a skilled Front-end Developer, Back-end Developer and master of Graphic Design tools such as Photoshop and Figma.</div>
+      </div>
+      <div>
+        <h1>Professional Skill</h1>
+        <div class="skillBar">
+          <h3>HTML</h3>
+          <div class="barContainer">
+            <div class="barFilling green"></div>
+          </div>
+        </div>
+        <div class="skillBar">
+          <h3>CSS</h3>
+          <div class="barContainer">
+            <div class="barFilling orange"></div>
+          </div>
+        </div>
+        <div class="skillBar">
+          <h3>Javascript</h3>
+          <div class="barContainer">
+            <div class="barFilling purple"></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1>Work Experience</h1>
+        <ul class="workEx">
+          <li>
+            <div>
+              <span>Frontend Developer at <strong>Creative Agency</strong></span>
+              <br />
+              <span class="subWorkEx"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis accusantium, atque laudantium blanditiis exercitationem est perferendis sed saepe explicabo laborum ipsam voluptas minus corrupti, cum quia, voluptatibus
+                aspernatur quaerat ratione.</span
+              >
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Frontend Developer at <strong>Creative Agency</strong></span>
+              <br />
+              <span class="subWorkEx"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus non maiores assumenda eaque, sit quibusdam voluptatem alias! Labore natus ut illum. Architecto magnam deserunt error accusantium officia praesentium
+                dicta cumque?</span
+              >
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>UI Design at <strong>Creative Agency</strong></span>
+              <br />
+              <span class="subWorkEx"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rem perspiciatis nam porro quaerat. Eaque, ducimus totam veritatis iusto aperiam aliquid blanditiis. Molestias consequuntur maxime distinctio debitis
+                dolores, optio quaerat.</span
+              >
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>UI Design at <strong>Creative Agency</strong></span>
+              <br />
+              <span class="subWorkEx"
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, error. Optio maxime amet accusamus quam expedita iusto sapiente at, hic ratione ipsa nulla quisquam pariatur ea sed in excepturi repudiandae.</span
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footerHolder">
+        <div class="footerName">&copy; 2023 Rafli Salamudin</div>
+      </div>
+    </footer>
   </body>
 </html>

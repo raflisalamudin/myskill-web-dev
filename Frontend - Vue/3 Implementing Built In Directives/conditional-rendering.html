@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p v-if="checkWeight()">Anda boleh bertanding di kelas 60kg</p>
+      <p v-else-if="checkName()">Kamu boleh bertanding karena namumu chris</p>
+      <p v-else-if="age === 25">Kamu boleh bertanding karena dibawah 25 tahun</p>
+      <p v-else>Anda tidak boleh bertanding di kelas 60kg</p>
+
+      <p v-show="checkWeight()">ini menggunakan v-show</p>
+    </div>
+  </body>
+  <script>
+    const App = {
+      data() {
+        return {
+          weight: 55,
+          allowedWeight: 60,
+          name: "chris",
+          age: 25,
+        };
+      },
+      methods: {
+        checkWeight() {
+          return this.weight < this.allowedWeight ? true : false;
+        },
+        checkName() {
+          return this.name === "chris";
+        },
+      },
+    };
+    Vue.createApp(App).mount("#app");
+  </script>
+</html>

@@ -1,0 +1,13 @@
+working with element
+1. v-on:click
+https://vuejs.org/api/built-in-directives.html#v-on
+
+event and arguments
+
+keyboard event
+v-on:keyup
+
+v model
+
+
+https://storage.googleapis.com/myskill-v2-certificates/course-hNSJUIbGAjTSsO9dn7ze/g01IRi5CnLZrK4LvIcmLdGlC0Q53-IveSIFtHQiPpu1lx5ZEh.pdf

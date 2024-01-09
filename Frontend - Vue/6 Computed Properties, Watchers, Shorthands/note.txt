@@ -1,0 +1,13 @@
+computed properties
+
+
+
+watchers
+
+
+shorthands
+v-bind itu :
+v-on itu @
+
+
+https://storage.googleapis.com/myskill-v2-certificates/course-zCPyjs7QXcY2ToJWhRfZ/g01IRi5CnLZrK4LvIcmLdGlC0Q53-7YGC2px0swicqpXi2OEP.pdf

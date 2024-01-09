@@ -1,0 +1,10 @@
+git checkout and detachead HEAD
+git restore
+git reset
+git revert
+
+git checkout menggunakan hash commit
+
+https://docs.google.com/presentation/d/1OzqAfQOu0sU531bkCUwoEn6c2Slgod45WfpkRUjPYsM/edit#slide=id.g298ffecfcd8_2_46
+
+https://storage.googleapis.com/myskill-v2-certificates/course-8MqiAW771vjviclWxYgQ/g01IRi5CnLZrK4LvIcmLdGlC0Q53-qGqavxGNM1QBP8Roofsc.pdf
